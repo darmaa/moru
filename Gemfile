@@ -10,6 +10,8 @@ gem 'rails', '3.1.1'
 gem "mongoid", "~>2.3"
 gem "bson_ext", "~>1.4"
 
+gem "omniauth"
+
 gem "rspec-rails", :group => [:test, :development]
 group :test do
   gem "factory_girl_rails"
