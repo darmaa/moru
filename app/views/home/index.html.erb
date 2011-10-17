@@ -1,8 +1,9 @@
-<h1>Welcome to MoRu</h1>
+<h1>Welcome to MoRu!</h1>
 <% if user_signed_in? %>
   Welcome <%= current_user.name %>. Not you <%= link_to 'logout.', signout_path %>
 <% else %>
   <p>
+    <b>Login</b><br/>
     <%= signin_with_twitter %><br />
     <%= signin_with_facebook %>
   </p>
