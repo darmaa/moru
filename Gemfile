@@ -5,7 +5,10 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+#gem 'pg'
+
+gem "mongoid", "~>2.3"
+gem "bson_ext", "~>1.4"
 
 
 # Gems used only for assets and not required
